@@ -1,0 +1,20 @@
+﻿<Window x:Class="TI4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TI4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="553.753" Width="772.252">
+    <Grid Margin="0,0,2,0">
+        <TextBox x:Name="txtBoxText" HorizontalAlignment="Left" Height="116" Margin="53,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="657" FontSize="15" Text="Hello, it's Di!"/>
+        <Button x:Name="btnEncrypt" Content="Encrupt" HorizontalAlignment="Left" Margin="53,469,0,0" VerticalAlignment="Top" Width="110" Click="ButtonEn_Click" Height="26"/>
+        <TextBox x:Name="txtBoxEn" HorizontalAlignment="Left" Height="116" Margin="53,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="657" FontSize="15"/>
+        <TextBox x:Name="txtBoxDe" HorizontalAlignment="Left" Height="116" Margin="53,338,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="657" FontSize="15"/>
+        <Button x:Name="btnDecrypt" Content="Decrypt" HorizontalAlignment="Left" Margin="600,469,0,0" VerticalAlignment="Top" Width="110" Click="ButtonDe_Click" Height="26"/>
+        <Label Content="Input text" HorizontalAlignment="Left" Margin="53,14,0,0" VerticalAlignment="Top"/>
+        <Label Content="Encrypted text" HorizontalAlignment="Left" Margin="53,161,0,0" VerticalAlignment="Top"/>
+        <Label Content="Decrypted text" HorizontalAlignment="Left" Margin="53,312,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
